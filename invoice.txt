@@ -1,0 +1,20 @@
+***INVOICE*** 
+Order number: 22
+Customer: Darren
+Email: d@mail.com
+Phone number: 12312312
+Location: Durban
+
+You have ordered the following from Bossa in Durban:
+
+Pizza (R160.0)
+
+Special instructions: Make a joke
+
+Total: R160.0
+
+Eugene Santana is nearest to the restaurant and so he will be delivering your order to you at:
+
+28 street
+
+If you need to contact the restaurant, their number is 1231312
