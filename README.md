@@ -29,19 +29,20 @@ This file contains various drivers names, location and the amount of deliveries 
 <img width="679" alt="Screenshot 2023-07-24 at 11 11 15" src="https://github.com/Darren0422/L2CapStone2/assets/134398985/22456f87-59b0-4266-9225-4bd1d7c92351">
 #### User Prompts
 Once the program runs, the user is prompted to enter various information regarding the customer, restaurant and the meal.
-● Order number
-● Customer name
-● Contact number of the customer
-● Address of the customer
-● Location (city) of the customer
-● Email address of the customer
-● Name of the restaurant
-● Location of the restaurant
-● Contact number of the restaurant
-● How many of each meal is being ordered
-● The list of meals being ordered and their prices
-● Any special preparation instructions given by the customer
-● The total amount to be paid
+- Order number
+- Customer name
+- Contact number of the customer
+- Address of the customer
+- Location (city) of the customer
+- Email address of the customer
+- Name of the restaurant
+- Location of the restaurant
+- Contact number of the restaurant
+- How many of each meal is being ordered
+- The list of meals being ordered and their prices
+- Any special preparation instructions given by the customer
+- The total amount to be paid
+
 
 <img width="1095" alt="Screenshot 2023-07-24 at 11 13 15" src="https://github.com/Darren0422/L2CapStone2/assets/134398985/57ab99ae-011c-4572-8909-b214eb480701">
 
