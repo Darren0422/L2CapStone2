@@ -200,6 +200,7 @@ public class Customer {
 
         System.out.print("Special instructions: ");
         String specialInstructions = scanner.nextLine();
+        
 
         return new Customer(
                 orderNumber,
