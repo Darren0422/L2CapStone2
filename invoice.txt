@@ -1,20 +1,20 @@
 ***INVOICE*** 
-Order number: 22
+Order number: 555
 Customer: Darren
-Email: d@mail.com
-Phone number: 12312312
-Location: Durban
+Email: d@mail
+Phone number: 0323232
+Location: Cape Town
 
-You have ordered the following from Bossa in Durban:
+You have ordered the following from bossa in Cape Town:
 
-Pizza (R160.0)
+pizza (R50.0)
 
-Special instructions: Make a joke
+Special instructions: 
 
-Total: R160.0
+Total: R50.0
 
-Eugene Santana is nearest to the restaurant and so he will be delivering your order to you at:
+Miranda Metcalfe is nearest to the restaurant and so he will be delivering your order to you at:
 
 28 street
 
-If you need to contact the restaurant, their number is 1231312
+If you need to contact the restaurant, their number is 23223

@@ -36,22 +36,39 @@ public class Restaurant {
     // Method for creating the restaurant object:
     // The scanner reads the user input from the user and stores it in the
     // respective variables.
+    // A while loop is used as ann input validator. The user cannot leave the input field empty
     // The "return new restaurant" part creates a new customer object using the
     // information provided.
 
-    //I could not get the program to fuction properly when i closed the scaner. 
-    //I tried the work arouds but they still were ot working. I came across a form that said you ca remove it ad it solved the problem but I couldny get it to work.
     public static Restaurant createRestaurant() {
-        Scanner scanner2 = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Restaurant name: ");
-        String restaurantName = scanner2.nextLine();
+        String restaurantName = "";
+        while (restaurantName.isEmpty()) {
+            System.out.print("Restaurant name: ");
+            restaurantName = scanner.nextLine();
+            if (restaurantName.isEmpty()) {
+                System.out.println("Restaurant name cannot be empty. Please try again.");
+            }
+        }
 
-        System.out.print("Restaurant location: ");
-        String restaurantLocation = scanner2.nextLine();
+        String restaurantLocation = "";
+        while (restaurantLocation.isEmpty()) {
+            System.out.print("Restaurant location: ");
+            restaurantLocation = scanner.nextLine();
+            if (restaurantLocation.isEmpty()) {
+                System.out.println("Restaurant location cannot be empty. Please try again.");
+            }
+        }
 
-        System.out.print("Restaurant contact number: ");
-        String restaurantContactNumber = scanner2.nextLine();
+        String restaurantContactNumber = "";
+        while (restaurantContactNumber.isEmpty()) {
+            System.out.print("Restaurant contact number: ");
+            restaurantContactNumber = scanner.nextLine();
+            if (restaurantContactNumber.isEmpty()) {
+                System.out.println("Restaurant contact number cannot be empty. Please try again.");
+            }
+        }
 
         return new Restaurant(
                 restaurantName,
